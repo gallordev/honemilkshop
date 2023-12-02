@@ -1,12 +1,10 @@
-import Dropzone from '@/components/Dropzone'
-import Image from 'next/image'
+import Dropzone from '@/components/Dropzone';
 
 export default function Home() {
+
   return (
-    <main className="bg-amber-100 flex min-h-screen p-1">
-      
+    <main className="container bg-amber-100 min-h-screen p-1">
       <Dropzone/>
-      
     </main>
   )
 }
